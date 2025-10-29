@@ -1,0 +1,13 @@
+[
+  {"VendorID": "V001", "VendorName": "Global Metals Ltd.", "Contact": "Rita Fernandez", "Phone": "+1-312-555-0198"},
+  {"VendorID": "V002", "VendorName": "EcoChem Supplies", "Contact": "James O’Connor", "Phone": "+1-415-555-0423"},
+  {"VendorID": "V003", "VendorName": "Precision Plastics Co.", "Contact": "Lena Cho", "Phone": "+1-646-555-0327"},
+  {"VendorID": "V004", "VendorName": "NovaTextiles Corp.", "Contact": "Hiro Tanaka", "Phone": "+1-718-555-0294"},
+  {"VendorID": "V005", "VendorName": "GreenLeaf Paper Mills", "Contact": "Angela Brooks", "Phone": "+1-202-555-0789"},
+  {"VendorID": "V006", "VendorName": "PureTech Chemicals", "Contact": "Michael Ortega", "Phone": "+1-510-555-0876"},
+  {"VendorID": "V007", "VendorName": "Omega Electronics Parts", "Contact": "Karen Liu", "Phone": "+1-917-555-0642"},
+  {"VendorID": "V008", "VendorName": "Star Industrial Lubricants", "Contact": "Derrick Coleman", "Phone": "+1-281-555-0453"},
+  {"VendorID": "V009", "VendorName": "AquaPolymer Resins", "Contact": "Sonia Patel", "Phone": "+1-213-555-0987"},
+  {"VendorID": "V010", "VendorName": "Summit Steel Works", "Contact": "David Reynolds", "Phone": "+1-206-555-0239"}
+]
+
