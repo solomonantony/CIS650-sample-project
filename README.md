@@ -18,3 +18,43 @@ Data model
 Vendors - VendorID,  VendorName, Contact, Phone
 RawMaterials – RawMaterialID, Description, Current stock, Vendor information, Threshold, Minimum order quantity, Lead time, Purchase Order id, Reorder status
 PurchaseOrders – PO_id, Date, RawMaterialID, Vendor information, Quantity ordered, Arrival date, Delivery Status, Stock update status
+
+# testing md
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+# Use case analysis
+
+|Use case title| Update stock|
+|------------------------------|
+|Primary actor| Director of FIS|
+|---|
+|Secondary actor | None|
+|---|
+|Goal|Update the stock and create a purchase order|
+|---|
+|Scope|Financial Inforrmation System|
+|---|
+|Preconditions|Product inventory data is available|
+|---|
+||and Purchase order data are available|
+|---|
+|Post condition|Inventory updated|
+|---|
+||Purchase order created, if needed|
+|---|
+|Main success scenario|User enters valid product information|
+|---|
+||User enters valid data for stock update|
+|---|
+||Stock data is updated|
+|---|
+||If the current stock falls below Threshold, create as many purchase orders so that the resulting stock will be above the threshold|
+|---|
+||Add the purchase order to the dataset|
+|---|
+
+
