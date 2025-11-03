@@ -30,7 +30,8 @@ PurchaseOrders – PO_id, Date, RawMaterialID, Vendor information, Quantity orde
 
 | Use case component| use case details|
 |-------------|-----------------|
-|Use case title| Update stock|
+|User story|As the Director of the Financial Management Department, Veronica would like to create an automatic reorder of a raw material if its stock falls below a certain threshold so that she would have enough material in stock to complete an order.|
+|Use case title| Update stock (reduce or Increase stock)|
 |Primary actor| Director of FIS|
 |Secondary actor | None|
 |Goal|Update the stock and create a purchase order|
