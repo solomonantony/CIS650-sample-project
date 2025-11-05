@@ -4,6 +4,9 @@ def decrease_stock(rawmaterials, raw_material_id, quantity):
     if rawmaterials.loc[raw_material_id, 'CurrentStock'] < rawmaterials.loc[raw_material_id, 'Threshold']:
         print('Placing a purchase order to restock')
 
+def create_purchase_order(rawmaterials, raw_material_id, quantity):
+    pass
+
 def increase_stock(rawmaterials, raw_material_id, quantity):
     pass
 def get_raw_material_id(raw_materials):
