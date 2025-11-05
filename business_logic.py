@@ -1,8 +1,12 @@
 import pprint
 def decrease_stock(rawmaterials, raw_material_id, quantity):
     rawmaterials.loc[raw_material_id, 'CurrentStock'] -= quantity
+    raw_material_name = rawmaterials.loc[raw_material_id, 'Description']
     if rawmaterials.loc[raw_material_id, 'CurrentStock'] < rawmaterials.loc[raw_material_id, 'Threshold']:
+        print(f'{raw_material_name} falls below threshold.')
         print('Placing a purchase order to restock')
+    else:
+          print(f'{raw_material_name} stock reduced to {rawmaterials.loc[raw_material_id, 'CurrentStock']}')
 
 def create_purchase_order(rawmaterials, raw_material_id, quantity):
     pass
